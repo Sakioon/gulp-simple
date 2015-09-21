@@ -1,0 +1,39 @@
+@charset 'utf-8';
+
+* {
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  box-sizing:border-box;
+  font-size:12px;
+  font-family: Arial, Roboto, “Droid Sans”, “游ゴシック”, YuGothic, “ヒラギノ角ゴ ProN W3”, “Hiragino Kaku Gothic ProN”, “メイリオ”, Meiryo, sans-serif;
+  /* font-family: “Times New Roman”, “游明朝”, YuMincho, “ヒラギノ明朝 ProN W3”, “Hiragino Mincho ProN”, “メイリオ”, Meiryo, serif; */
+}
+#container {
+}
+header {
+}
+nav {
+}
+#breadcrumb {
+}
+#contents {
+}
+#main {
+}
+#sub {
+}
+footer {
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.clearfix {display: inline-block;}
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
